@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Михаил Баранов](https://up.htmlacademy.ru/adaptive/11/user/37924).
-* Наставник: `Неизвестно`.
+* Наставник: `Анастасия Мигаева`.
 
 ---
 
