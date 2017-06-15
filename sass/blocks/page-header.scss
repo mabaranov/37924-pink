@@ -1,0 +1,30 @@
+.page-header {
+    background-color: #283645;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.page-header__wrapper {
+  margin: 0 auto;
+}
+
+.main-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-nav__item {
+  padding-top: 18px;
+  padding-bottom: 17px;
+  border-top: 1px solid #485461;
+  border-bottom: 1px solid #010101;
+}
+
+.main-nav__link {
+  color: #ffffff;
+  text-decoration: none;
+}
