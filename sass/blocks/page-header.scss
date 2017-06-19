@@ -1,8 +1,6 @@
 .page-header {
-    background-color: #283645;
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 32px;
+  background-color: $page-header__bg-color;
+  color: $page-header__txt-color;
 }
 
 .page-header__wrapper {
@@ -13,6 +11,10 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -20,11 +22,11 @@
 .main-nav__item {
   padding-top: 18px;
   padding-bottom: 17px;
-  border-top: 1px solid #485461;
-  border-bottom: 1px solid #010101;
+  border-top: 1px solid $main-nav__item-top-color;
+  border-bottom: 1px solid $main-nav__item-bottom-color;
 }
 
 .main-nav__link {
-  color: #ffffff;
+  color: $main-nav__txt-color;
   text-decoration: none;
 }

@@ -1,16 +1,14 @@
 
-@import "blocks/page-header.scss";
-@import "blocks/demo.scss";
-@import "blocks/btn-download.scss";
-@import "blocks/advantages.scss";
-@import "blocks/reviews.scss";
-@import "blocks/price.scss";
-@import "blocks/contacts.scss";
-@import "blocks/map.scss";
-
-body {
-  min-width: 320px;
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans","Arial",sans-serif;
-}
+@import "global/normalize";
+@import "global/global-styles";
+@import "global/font";
+@import "global/variables";
+@import "global/mixin";
+@import "blocks/page-header";
+@import "blocks/demo";
+@import "blocks/btn-download";
+@import "blocks/advantages";
+@import "blocks/reviews";
+@import "blocks/price";
+@import "blocks/contacts";
+@import "blocks/map";

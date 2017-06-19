@@ -1,6 +1,6 @@
 .advantages {
-  background-color: #ffffff;
-  color: #283645;
+  background-color: $advantages__bg-color;
+  color: $advantages__txt-color;
 }
 
 .advantages__proposals {
@@ -17,21 +17,19 @@
   text-align: center;
 }
 
-.advantages_wrapper {
-  box-sizing: border-box;
+.advantages__wrapper {
   padding-top: 114px;
-  background-color: #f2f2f2;
+  background-color: $advantages__wrapper-bg-color;
   background-image: url(../img/bg-triangle-white.svg);
   background-repeat: no-repeat;
   background-position: top;
 }
 
 .advantages__list {
-  box-sizing: border-box;
   width: 320px;
   margin: 0 auto;
   padding-bottom: 320px;
-  background: #f2f2f2 url(../img/iphone-screen-mobile@1x.png) no-repeat;
+  background: $advantages__wrapper-bg-color url(../img/iphone-screen-mobile@1x.png) no-repeat;
   background-position: center 425px;
   background-size: 157px auto;
   list-style: none;
