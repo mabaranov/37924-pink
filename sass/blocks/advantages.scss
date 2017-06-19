@@ -1,0 +1,50 @@
+.advantages {
+  background-color: $advantages__bg-color;
+  color: $advantages__txt-color;
+}
+
+.advantages__proposals {
+  padding-bottom: 0;
+  margin-top: 40px;
+}
+
+.advantages__text {
+  width: 320px;
+  margin: 0 auto 26px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.advantages__wrapper {
+  padding-top: 114px;
+  background-color: $advantages__wrapper-bg-color;
+  background-image: url(../img/bg-triangle-white.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.advantages__list {
+  width: 320px;
+  margin: 0 auto;
+  padding-bottom: 320px;
+  background: $advantages__wrapper-bg-color url(../img/iphone-screen-mobile@1x.png) no-repeat;
+  background-position: center 425px;
+  background-size: 157px auto;
+  list-style: none;
+}
+
+.advantages__item-title {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.advantages__item-descr {
+  width: 282px;
+  margin: 10px auto 0;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}

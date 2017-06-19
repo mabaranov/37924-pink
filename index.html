@@ -3,21 +3,25 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>HTML Academy: Пинк</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="page-header">
     <div class="page-header__wrapper">
+
       <div class="page-header__logo">
         <img src="" alt="PINK" width="" height="">
       </div>
+
       <nav class="main-nav main-nav--open">
         <ul class="main-nav__list">
-          <li class="main-nav__item main-nav__item--active"><a href="#">Главная</a></li>
-          <li class="main-nav__item"><a href="#">Фотографии</a></li>
-          <li class="main-nav__item"><a href="#">Конкурс</a></li>
-          <li class="main-nav__item"><a href="#">HTML Academy</a></li>
+          <li class="main-nav__item main-nav__item--active"><a class="main-nav__link" href="#">Главная</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a></li>
         </ul>
       </nav>
     </div>
@@ -25,20 +29,25 @@
 
   <section class="demo">
     <div class="demo__img">
-      <img src="" alt="demo image" width="" height="">
+      <img src="../img/iphone-hand-mobile@1x.png" alt="demo image" width="" height="">
     </div>
     <div class="demo__app">
-      <a href="">Скачать приложение</a>
-      <p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      <a class="btn-download" href="#">Скачать приложение</a>
+      <div class="demo__download-os">
+        <a class="demo__apple" href="#">Apple</a>
+        <a class="demo__android" href="#">Android</a>
+        <a class="demo__windows" href="#">Windows</a>
+      </div>
+      <p class="demo__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
     </div>
   </section>
 
   <section class="advantages">
     <div class="advantages__proposals">
-      <p>Устали от серости мегаполиса?</p>
-      <p>Нам есть, что вам предложить!</p>
+      <p class="advantages__text">Устали от серости мегаполиса?</p>
+      <p class="advantages__text">Нам есть, что вам предложить!</p>
     </div>
-    <div class="advantages_wrapper">
+    <div class="advantages__wrapper">
       <ul class="advantages__list">
         <li class="advantages__item">
           <h3 class="advantages__item-title">Поднимает настроение</h3>
@@ -63,7 +72,7 @@
     <div class="reviews__slider">
       <blockquote class="reviews__item">
         <cite class="reviews__author-name">Николай Петров</cite>
-        <p>"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился
+        <p class="reviews__descr">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился
           со своей будущей женой в комментариях к выложенной фотографии!"
         </p>
       </blockquote>
@@ -76,59 +85,59 @@
   </section>
 
 
-  <section class="stats">
-    <div class="stats__slider">
-      <table class="stats__table">
-        <thead class="stats__tabel-th">
+  <section class="price">
+    <div class="price__slider">
+      <table class="price__table">
+        <thead class="price__table-th">
           <tr>
-            <th class="stats__table-header">
+            <th class="price__table-header">
               <p>Стандарт</p>
               <p>3,99 USD</p>
             </th>
           </tr>
         </thead>
-        <tbody class="stats__tabel-tb">
-          <tr class="stats__table-row">
+        <tbody class="price__table-tb">
+          <tr class="price__table-row">
             <td>Розовый фильтр</td>
           </tr>
-          <tr class="stats__table-row">
+          <tr class="price__table-row">
             <td>Смайлики</td>
           </tr>
-          <tr class="stats__table-row">
+          <tr class="price__table-row">
             <td>Комментарий</td>
           </tr>
         </tbody>
       </table>
-      <div class="stats__toggle-wrapper">
-        <button class="stats__toggle" type="button"></button>
-        <button class="stats__toggle stats__toggle-active" type="button"></button>
-        <button class="stats__toggle" type="button"></button>
+      <div class="price__toggle-wrapper">
+        <button class="price__toggle" type="button"></button>
+        <button class="price__toggle price__toggle-active" type="button"></button>
+        <button class="price__toggle" type="button"></button>
       </div>
     </div>
   </section>
 
 
   <section class="contacts">
-    <h2>Остались вопросы? Свяжитесь с нами!</h2>
+    <h2 class="contacts__header">Остались вопросы? <br> Свяжитесь с нами!</h2>
     <div class="contacts__wrapper">
-      <div>
+      <div class="contacts__item">
         <span class="contacts__title">Звоните:</span>
-        <p class="contacts__text"><a href="tel:+78125556666">+7(812)5556666</a></p>
+        <span class="contacts__text"><a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a></span>
       </div>
-      <div>
+      <div class="contacts__item">
         <span class="contacts__title">Пишите:</span>
-        <p class="contacts__text"><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+        <span class="contacts__text"><a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></span>
       </div>
-      <div>
+      <div class="contacts__item">
         <span class="contacts__title">Приезжайте в гости:</span>
-        <p class="contacts__text">ул.Большая Конюшенная, 19/8</p>
+        <span class="contacts__text">ул.Большая Конюшенная,<br>19/8</span>
       </div>
     </div>
   </section>
 
 
   <section class="map">
-    <img src="#" alt="Карта" width="" height="">
+    <div class="map__triangle"></div>
   </section>
 
 </body>
