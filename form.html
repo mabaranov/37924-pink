@@ -3,11 +3,13 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>HTML Academy: Пинк</title>
   <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+
   <header class="page-header">
     <div class="page-header__wrapper">
       <div class="page-header__logo">
@@ -24,84 +26,84 @@
       </div>
   </header>
 
+  <main>
+    <form class="competition-form">
+      <div class="competition-form__wrapper">
 
-  <form class="competition-form">
-    <div class="competition-form__wrapper">
-
-      <div class="competition__title">
-        <h1>Конкурс на самое безбашенное путешествие с Пинк</h1>
-      </div>
-      <div class="competition__descr">
-        <p>Поделитесь своей истроией и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</p>
-      </div>
-
-      <div class="competition-form__full-name">
-        <div class="competition-form__wrapper">
-          <label class="competition-form__full-name-label" for="surname">Фамилия</label>
-          <input class="competition-form__full-name-input" type="text" id="surname" placeholder="Укажите фамилию *" name="Surname">
-          <label class="competition-form__full-name-label" for="name">Имя</label>
-          <input class="competition-form__full-name-input" type="text" id="name" placeholder="Введите ваше имя *" name="Name">
-          <label class="competition-form__full-name-label" for="patronymic">Отчество</label>
-          <input class="competition-form__full-name-input" type="text" id="patronymic" placeholder="Ну и отчество тоже" name="Patronymic">
+        <div class="competition__title">
+          <h1>Конкурс на самое безбашенное путешествие с Пинк</h1>
         </div>
-      </div>
-
-      <div class="competition-form__achievements">
-        <div class="competition-form__wrapper">
-          <h3>Ваши безбашенные достижения в путешествии</h3>
-          <input class="competition-form__achievements-input competition-form__achievement--checked" id="ch1" type="checkbox" name="choice1" value="ch1">
-          <label class="competition-form__achievements-label" for="ch1">Сделал селфи с акулой</label>
-          <input class="competition-form__achievements-input competition-form__achievement--checked" id="ch2" type="checkbox" name="choice2" value="ch2">
-          <label class="competition-form__achievements-label" for="ch2">Обгорел на пляже</label>
-          <input class="competition-form__achievements-input" id="ch3" type="checkbox" name="choice3" value="ch3">
-          <label class="competition-form__achievements-label" for="ch3">Видел Чака Норриса</label>
-          <input class="competition-form__achievements-input" id="ch4" type="checkbox" name="choice4" value="ch4">
-          <label class="competition-form__achievements-label" for="ch4">Накупил сувениров</label>
-          <input class="competition-form__achievements-input competition-form__achievement--checked" id="ch5" type="checkbox" name="choice5" value="ch5">
-          <label class="competition-form__achievements-label" for="ch5">Удержал башню</label>
-          <input class="competition-form__achievements-input" id="ch6" type="checkbox" name="choice6" value="ch6">
-          <label class="competition-form__achievements-label" for="ch6">Разгромил отель</label>
+        <div class="competition__descr">
+          <p>Поделитесь своей истроией и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</p>
         </div>
-      </div>
 
-      <div class="competition-form__contacts">
-        <div class="competition-form__wrapper">
-          <label class="competition-form__contacts-label" for="tel">Номер телефона</label>
-          <input class="competition-form__contacts-input" type="text" id="tel" placeholder="Номер, пожалуйста" name="Tel">
-          <label class="competition-form__contacts-label" for="email">Адрес почты</label>
-          <input class="competition-form__contacts-input" type="text" id="email" placeholder="Введите почту *" name="Email">
+        <div class="competition-form__full-name">
+          <div class="competition-form__wrapper">
+            <label class="competition-form__full-name-label" for="surname">Фамилия</label>
+            <input class="competition-form__full-name-input" type="text" id="surname" placeholder="Укажите фамилию *" name="Surname">
+            <label class="competition-form__full-name-label" for="name">Имя</label>
+            <input class="competition-form__full-name-input" type="text" id="name" placeholder="Введите ваше имя *" name="Name">
+            <label class="competition-form__full-name-label" for="patronymic">Отчество</label>
+            <input class="competition-form__full-name-input" type="text" id="patronymic" placeholder="Ну и отчество тоже" name="Patronymic">
+          </div>
         </div>
-      </div>
 
-
-      <div class="competition-form__apps">
-        <div class="competition-form__wrapper">
-          <h3>С каким приложением путешествовали?</h3>
-          <input class="competition-form__apps-input" type="radio" id="app-ios" name="toggle-apps" value="ios" checked>
-          <label class="competition-form__apps-label" for="app-ios">Pink для iOS</label>
-          <input class="competition-form__apps-input" type="radio" id="app-android" name="toggle-apps" value="android">
-          <label class="competition-form__apps-label" for="app-android">Pink на Android</label>
-          <input class="competition-form__apps-input" type="radio" id="app-winphone" name="toggle-apps" value="windows-phone">
-          <label class="competition-form__apps-label" for="app-winphone">Windows Phone</label>
+        <div class="competition-form__achievements">
+          <div class="competition-form__wrapper">
+            <h3>Ваши безбашенные достижения в путешествии</h3>
+            <input class="competition-form__achievements-input competition-form__achievement--checked" id="ch1" type="checkbox" name="choice1" value="ch1">
+            <label class="competition-form__achievements-label" for="ch1">Сделал селфи с акулой</label>
+            <input class="competition-form__achievements-input competition-form__achievement--checked" id="ch2" type="checkbox" name="choice2" value="ch2">
+            <label class="competition-form__achievements-label" for="ch2">Обгорел на пляже</label>
+            <input class="competition-form__achievements-input" id="ch3" type="checkbox" name="choice3" value="ch3">
+            <label class="competition-form__achievements-label" for="ch3">Видел Чака Норриса</label>
+            <input class="competition-form__achievements-input" id="ch4" type="checkbox" name="choice4" value="ch4">
+            <label class="competition-form__achievements-label" for="ch4">Накупил сувениров</label>
+            <input class="competition-form__achievements-input competition-form__achievement--checked" id="ch5" type="checkbox" name="choice5" value="ch5">
+            <label class="competition-form__achievements-label" for="ch5">Удержал башню</label>
+            <input class="competition-form__achievements-input" id="ch6" type="checkbox" name="choice6" value="ch6">
+            <label class="competition-form__achievements-label" for="ch6">Разгромил отель</label>
+          </div>
         </div>
-      </div>
 
-      <div class="competition-form__emotions">
-        <div class="competition-form__wrapper">
-          <h3>Опишите свои эмоции</h3>
-          <textarea class="competition-form__emotions-text" name="emotions-text" placeholder="Можно прям в красках,
-          не стесняясь в выражениях"></textarea>
+        <div class="competition-form__contacts">
+          <div class="competition-form__wrapper">
+            <label class="competition-form__contacts-label" for="tel">Номер телефона</label>
+            <input class="competition-form__contacts-input" type="text" id="tel" placeholder="Номер, пожалуйста" name="Tel">
+            <label class="competition-form__contacts-label" for="email">Адрес почты</label>
+            <input class="competition-form__contacts-input" type="text" id="email" placeholder="Введите почту *" name="Email">
+          </div>
         </div>
+
+
+        <div class="competition-form__apps">
+          <div class="competition-form__wrapper">
+            <h3>С каким приложением путешествовали?</h3>
+            <input class="competition-form__apps-input" type="radio" id="app-ios" name="toggle-apps" value="ios" checked>
+            <label class="competition-form__apps-label" for="app-ios">Pink для iOS</label>
+            <input class="competition-form__apps-input" type="radio" id="app-android" name="toggle-apps" value="android">
+            <label class="competition-form__apps-label" for="app-android">Pink на Android</label>
+            <input class="competition-form__apps-input" type="radio" id="app-winphone" name="toggle-apps" value="windows-phone">
+            <label class="competition-form__apps-label" for="app-winphone">Windows Phone</label>
+          </div>
+        </div>
+
+        <div class="competition-form__emotions">
+          <div class="competition-form__wrapper">
+            <h3>Опишите свои эмоции</h3>
+            <textarea class="competition-form__emotions-text" name="emotions-text" placeholder="Можно прям в красках,
+            не стесняясь в выражениях"></textarea>
+          </div>
+        </div>
+
+        <div class="competition-form__action">
+          <button class="competition-form__btn" type="submit">Отправить форму</button>
+        </div>
+
+        <span class="competition-form__legend">* - обязательные поля</span>
       </div>
-
-      <div class="competition-form__action">
-        <button class="competition-form__btn" type="submit">Отправить форму</button>
-      </div>
-
-      <span class="competition-form__legend">* - обязательные поля</span>
-    </div>
-  </form>
-
+    </form>
+  </main>
 
   <footer class="page-footer">
     <div class="page-footer__wrapper">
@@ -117,6 +119,7 @@
       </div>
     </div>
   </footer>
+
 </body>
 
 </html>

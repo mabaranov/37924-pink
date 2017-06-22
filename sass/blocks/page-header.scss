@@ -12,15 +12,28 @@
 }
 
 .page-header__logo {
+  //line-height: 67px;
+  padding: 5% 0;
+  height: 67px;
 
-  border: 1px solid yellow;
+  border: 2px solid green;
+}
+
+.page-header__logo img {
+  //vertical-align: middle;
+
+  border: 1px solid red;
 }
 
 
 @media ($desktop-widths) {
 
+  .page-header__wrapper {
+  }
+
   .page-header__logo {
     float: left;
+    vertical-align: middle;
     width: 147px;
     height: 40px;
   }
